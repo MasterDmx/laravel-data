@@ -8,6 +8,12 @@
             "email": "masterdmx3325@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "MasterDmx\\LaravelData\\": "src/"
+        }
+    },
     "minimum-stability": "stable",
-    "require": {}
+    "require": {},
+    "version": "1.0.0"
 }
