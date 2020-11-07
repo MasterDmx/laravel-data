@@ -1,0 +1,13 @@
+{
+    "name": "masterdmx/laravel-data",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergey Krening",
+            "email": "masterdmx3325@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
