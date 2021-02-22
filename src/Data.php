@@ -44,7 +44,7 @@ class Data
      */
     public function getPath(string $alias): string
     {
-        return base_path('data' . DIRECTORY_SEPARATOR . str_ireplace('.', DIRECTORY_SEPARATOR, $alias) . '.php');
+        return resource_path('data' . DIRECTORY_SEPARATOR . str_ireplace('.', DIRECTORY_SEPARATOR, $alias) . '.php');
     }
 
     private function hasInMemory(string $alias): bool
